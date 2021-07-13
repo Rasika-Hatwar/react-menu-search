@@ -1,0 +1,19 @@
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 20px 5px 20px;
+
+  .header {
+    border: solid 6px whitesmoke;
+    input[type="text"] {
+      text-align: start;
+      outline: none;
+      width: 500px;
+      padding: 10px;
+      border: none;
+      border-color: transparent;
+    }
+  }
+}
