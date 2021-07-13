@@ -17,7 +17,6 @@ export default function Home() {
       .then((menuData) => {
         setMenuData(menuData);
         setFilterData(menuData);
-        console.log("In first use effect");
       })
       .catch((error) => {
         setErrorMessage(error.message);
@@ -34,7 +33,6 @@ export default function Home() {
   const handleChange = (e) => {
     e.preventDefault();
     setSearchText(e.target.value);
-    console.log(e.target.value);
   };
 
   if (errorMessage) {
