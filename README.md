@@ -1,9 +1,9 @@
 Setup Instrcutions -
 
-git clone https://github.com/Rasika-Hatwar/react-menu-search.git
-cd react-menu-search
-npm install
-npm start
+1. git clone https://github.com/Rasika-Hatwar/react-menu-search.git
+2. cd react-menu-search
+3. npm install
+4. npm start
 
 Pending Implementations -
 
